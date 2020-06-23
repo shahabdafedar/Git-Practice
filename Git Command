@@ -1,0 +1,9 @@
+git commit -m "version1
+git status
+git init
+git add index.txt (or) git add .
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "version1"
+git log
+
