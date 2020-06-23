@@ -23,3 +23,9 @@ git push -u origin master
 git pull origin master
 
 
+git diff index.txt
+git diff --staged index.txt             'to get difference before commit
+
+git reset index.txt       ' to get back from stage before doing commit
+
+git checkout .         'to undo all changes from all file which is there in stage state before doing commit
