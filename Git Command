@@ -20,5 +20,6 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
 git push -u origin master
+git pull origin master
 
 
